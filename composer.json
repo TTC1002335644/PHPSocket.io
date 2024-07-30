@@ -1,5 +1,5 @@
 {
-  "name": "workerman/phpsocket.io",
+  "name": "bang/phpsocket.io",
   "description": "A server side alternative implementation of socket.io in PHP8 based on Workerman",
   "type": "library",
   "keywords": [
