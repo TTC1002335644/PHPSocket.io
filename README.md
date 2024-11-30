@@ -2,13 +2,14 @@
 A server side alternative implementation of [socket.io](https://github.com/socketio/socket.io) in PHP based on [Workerman](https://github.com/walkor/Workerman).<br>
 
 # Notice
+这个项目是fork `workerman/phpsocket.io`,因为`workerman/phpsocket.io`在`php8`上运行会出错，所以fork并发布一个支持在`php8`上可以正常运行的版本<br>
 support php >= 8.0<br>
 Only support socket.io >= v1.3.0 and <= v2.x <br>
 This project is just translate socket.io by [workerman](https://github.com/walkor/Workerman).<br>
 More api just see [https://socket.io/docs/v2/server-api/](https://socket.io/docs/v2/server-api/)
 
 # Install
-composer require workerman/phpsocket.io
+composer require bang/phpsocket.io
 
 # Examples
 ## Simple chat
@@ -162,7 +163,7 @@ Worker::runAll();
 ```
 
 # 手册
-[中文手册](https://github.com/walkor/phpsocket.io/tree/master/docs/zh)
+[源中文手册](https://github.com/walkor/phpsocket.io/tree/master/docs/zh)
 
 # Livedemo
 [chat demo](http://demos.workerman.net/phpsocketio-chat/)
